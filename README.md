@@ -30,6 +30,16 @@ The main pipelines are divided into two primary operational steps based on the d
 
 ---
 
+## Hyperparameter Tuning Configurations
+
+To find the optimal structural parameters, the tuning pipeline searches across the following grid space:
+
+| Hyperparameter | Tested Grid Values |
+| :--- | :--- |
+| **Neurons per Layer** | `[16, 32, 64, 128]` |
+| **Hidden Layers** | `[1, 2]` |
+| **Epochs** | `[50, 100]` |
+
 ## Installation & Environment Setup
 
 To run the notebooks and scripts locally, set up your environment and install the required dependencies:
